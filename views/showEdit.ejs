@@ -1,0 +1,15 @@
+<h1>Edit show</h1>
+<form action="/show/<%= shows.id %>?_method=PUT" method='POST'>
+    <label for="name">Name</label>
+    <input type="text" name="name" id='name' value="<%= shows.name %>">
+
+    <br><label for="genre">Genre</label>
+    <input type="text" name="genre" id='genre' value="<%= shows.genre %>">
+
+    <br><label for="rating">Rating</label>
+    <input type="text" name="rating" id='rating' value="<%= shows.rating %>">
+        
+
+        <input type="submit" value='Edit show'>
+
+</form>

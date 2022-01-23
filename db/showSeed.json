@@ -1,0 +1,19 @@
+[{
+        "name": "Witcher",
+        "genre": "Fantasy fiction",
+        "rating": 7
+        
+    },
+    {
+        "name": "Squid Games",
+        "genre": "Thriller",
+        "rating": 8
+      
+    },
+    {
+        "name": "Peaky Blinders",
+        "genre": "Historical Fiction",
+        "rating": 8
+      
+    }
+]

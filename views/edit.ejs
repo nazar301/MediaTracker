@@ -1,0 +1,16 @@
+<h1>Edit movie</h1>
+<form action="/movies/<%= movie.id %>?_method=PUT" method='POST'>
+    <label for="name">Name</label>
+    <input type="text" name="name" id='name' value="<%= movie.name %>">
+
+    <br><label for="genre">Genre</label>
+    <input type="text" name="genre" id='genre' value="<%= movie.genre %>">
+
+    <br><label for="rating">Rating</label>
+    <input type="text" name="rating" id='rating' value="<%= movie.rating %>">
+        
+
+        <input type="submit" value='Edit movie'>
+
+</form>
+

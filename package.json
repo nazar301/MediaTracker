@@ -1,0 +1,23 @@
+{
+  "name": "project2Removed",
+  "version": "1.0.0",
+  "description": "Technology used\r -Node\r -Javascript\r -Heroku\r -mongo atlas",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.7",
+    "node": "^17.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

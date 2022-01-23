@@ -1,0 +1,16 @@
+<nav>
+    <a href="/music/new">Add a song</a>
+</nav>
+
+<% music.forEach( (music, index) =>{ %>
+    <h1>
+        <a href="/music/<%= music.id %>">
+            <%= music.name %>
+        </a>
+    </h1>
+    <form action='/music/<%= music.id %>?_method=DELETE' method="POST">
+        <input type="submit" value="DELETE" />
+    </form>
+    <a href="/music/<%= music.id %>/edit">Edit Song</a>
+    <%  }) %>
+    

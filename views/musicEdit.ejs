@@ -1,0 +1,15 @@
+<h1>Edit Song</h1>
+<form action="/music/<%= music.id %>?_method=PUT" method='POST'>
+    <label for="name">Name</label>
+    <input type="text" name="name" id='name' value="<%= music.name %>">
+
+    <br><label for="artist">Artist</label>
+    <input type="text" name="artist" id='artist' value="<%= music.artist %>">
+
+    <br><label for="rating">Rating</label>
+    <input type="text" name="rating" id='rating' value="<%= music.rating %>">
+        
+
+        <input type="submit" value='Edit song'>
+
+</form>
