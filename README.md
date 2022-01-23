@@ -29,6 +29,7 @@ As a user should be able to rate each item on how much I want to see that show/m
 -puppeteer functionality to pull images and adding them to each post
 
 
+https://github.com/nazar301/MediaTracker
 
 https://tranquil-badlands-74258.herokuapp.com/movies
 
